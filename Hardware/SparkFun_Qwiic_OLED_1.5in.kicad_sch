@@ -4048,14 +4048,6 @@
 						)
 					)
 				)
-				(text "D/C"
-					(at 3.81 1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(text "~{W/R}"
 					(at 3.81 -1.27 0)
 					(effects
@@ -4186,7 +4178,7 @@
 						)
 					)
 				)
-				(text "VCI"
+				(text "VDD"
 					(at 4.318 21.59 0)
 					(effects
 						(font
@@ -4194,7 +4186,7 @@
 						)
 					)
 				)
-				(text "VDI"
+				(text "NC"
 					(at 4.318 18.796 0)
 					(effects
 						(font
@@ -4202,7 +4194,7 @@
 						)
 					)
 				)
-				(text "BS1"
+				(text "IM1"
 					(at 4.318 16.256 0)
 					(effects
 						(font
@@ -4210,7 +4202,7 @@
 						)
 					)
 				)
-				(text "BS2"
+				(text "IM2"
 					(at 4.318 13.716 0)
 					(effects
 						(font
@@ -4228,6 +4220,14 @@
 				)
 				(text "IREF"
 					(at 4.318 8.636 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "A0-D/C"
+					(at 4.318 1.27 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6803,9 +6803,9 @@
 		)
 		(uuid "e3099895-666e-4d5a-9517-deb0f77c8586")
 	)
-	(text "Is CS used in 3-wire SPI?"
+	(text "Is CS used in 3-wire SPI?\nYes, and then D/C is used to determine\ndata/command per usual. "
 		(exclude_from_sim no)
-		(at 140.97 65.024 0)
+		(at 128.778 103.632 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10839,156 +10839,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x24_FPC_0.5mm")
-		(at 92.71 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59e01fa6-8975-4116-afdc-ff432cc5c23d")
-		(property "Reference" "J4"
-			(at 91.694 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x24_FPC"
-			(at 91.44 34.036 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:FPC_0.5mm-24"
-			(at 93.218 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.atom-connector.com/uploads/FPC0.5mm-XP-SMTH1.5.pdf"
-			(at 93.218 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "FPC connector 24-pin 0.5mm"
-			(at 92.71 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CONN-14195"
-			(at 92.71 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "d03db49c-568e-4c7b-b804-aeec3d6b1b63")
-		)
-		(pin "14"
-			(uuid "5dd91519-4a19-40bb-a352-c828a049c227")
-		)
-		(pin "15"
-			(uuid "b119c752-87cd-492d-a779-2f4f1f1a29da")
-		)
-		(pin "18"
-			(uuid "be30997e-0edd-48e8-9451-24ccc7f9426a")
-		)
-		(pin "5"
-			(uuid "52a0495d-9c62-48e3-9817-2462fc01d03c")
-		)
-		(pin "13"
-			(uuid "8f0fc6eb-28d9-4e3b-b92e-f1420c9fa3e2")
-		)
-		(pin "9"
-			(uuid "30d25cf3-3973-402a-8014-d8a97e3af2be")
-		)
-		(pin "8"
-			(uuid "376d9c75-f6df-420a-9b95-88181c4ad839")
-		)
-		(pin "23"
-			(uuid "407f6d00-45b7-4da9-84c5-a8502013c657")
-		)
-		(pin "6"
-			(uuid "3fb22e57-0b0f-4c73-a4a6-91deb26cf478")
-		)
-		(pin "20"
-			(uuid "4d651217-e44a-47eb-9d39-167c90c8a6b2")
-		)
-		(pin "2"
-			(uuid "23fa23bb-2c0e-4e8d-b4b1-703ca7a16457")
-		)
-		(pin "17"
-			(uuid "74954c44-29b3-49a7-acb7-faa6af0b8bc5")
-		)
-		(pin "24"
-			(uuid "5c7fa647-cfb5-476f-9452-a3ad2d864d08")
-		)
-		(pin "MP1"
-			(uuid "faa48239-09f1-4993-af46-0c5153790123")
-		)
-		(pin "7"
-			(uuid "4fee8e63-1a9a-4015-8b45-12e770d8d081")
-		)
-		(pin "11"
-			(uuid "78d5f3c1-41bf-4d51-bde0-930f9e13bc4b")
-		)
-		(pin "12"
-			(uuid "8ca17ba3-db6a-407b-9605-fb6ac135ad98")
-		)
-		(pin "21"
-			(uuid "ba26be9a-07e9-4658-9903-cdee802215e0")
-		)
-		(pin "22"
-			(uuid "85fe6a2f-318d-4f8c-a201-741a139bc95c")
-		)
-		(pin "4"
-			(uuid "a49a6556-0d38-4b05-b1d7-818f140c9378")
-		)
-		(pin "3"
-			(uuid "1c44bd33-e946-4223-9532-44e00de935b5")
-		)
-		(pin "19"
-			(uuid "37cbc8fb-bc10-4f00-8b13-9844c5a6a786")
-		)
-		(pin "1"
-			(uuid "2274a48b-cec8-4a44-a082-6355cec146ea")
-		)
-		(pin "16"
-			(uuid "fd1d6bf7-a96e-4531-8ed9-9484d2379126")
-		)
-		(pin "MP2"
-			(uuid "25e1ff8b-bae2-4b49-afb6-9c93f25a1c4c")
-		)
-		(instances
-			(project "SparkFun_Qwiic_OLED_1.5in"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-IC-Power:AP3012")
 		(at 205.74 49.53 0)
 		(unit 1)
@@ -13512,6 +13362,156 @@
 			(project "SparkFun_Qwiic_OLED_1.5in"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:Conn_01x24_FPC_0.5mm")
+		(at 92.71 69.85 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9ded971-99a3-41dc-9341-40bc82da6937")
+		(property "Reference" "J4"
+			(at 92.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x24_FPC"
+			(at 92.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:FPC_0.5mm-24"
+			(at 93.218 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.atom-connector.com/uploads/FPC0.5mm-XP-SMTH1.5.pdf"
+			(at 93.218 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "FPC connector 24-pin 0.5mm"
+			(at 92.71 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-14195"
+			(at 92.71 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "06f7408e-c7c6-4cd9-b886-be50097ad936")
+		)
+		(pin "12"
+			(uuid "9cbd2540-ce0e-4826-adc6-08de398c93ea")
+		)
+		(pin "3"
+			(uuid "b7e7dfa2-b2c6-4429-85e6-44c098593e49")
+		)
+		(pin "4"
+			(uuid "9b57d9d9-cb79-4d9a-865a-f86809d9e436")
+		)
+		(pin "5"
+			(uuid "1d312046-3068-4513-b717-13cec22f844a")
+		)
+		(pin "1"
+			(uuid "ebee57a2-cf01-44e5-ac4b-031a6f81f7d9")
+		)
+		(pin "2"
+			(uuid "8ca70183-a1b9-49af-83a8-1663a0c1793d")
+		)
+		(pin "6"
+			(uuid "5b477cb6-5574-4475-a613-eaf8562e50aa")
+		)
+		(pin "7"
+			(uuid "31d33cdd-d711-47de-9cad-72f7854d2e06")
+		)
+		(pin "8"
+			(uuid "319ecdfb-a702-4e32-9d08-c1656862ee4b")
+		)
+		(pin "9"
+			(uuid "d4209d16-f95b-455e-9d41-d7e585d48deb")
+		)
+		(pin "11"
+			(uuid "dcbf8461-8bb4-4609-85df-76f17d46b1b9")
+		)
+		(pin "13"
+			(uuid "0880fbb6-3f85-4833-ac3b-dc50cdbd9fa0")
+		)
+		(pin "14"
+			(uuid "9d3b2159-7fed-4821-a048-af9264ca84fa")
+		)
+		(pin "15"
+			(uuid "29284249-751b-4c6e-822b-e7d10f39f59a")
+		)
+		(pin "16"
+			(uuid "f558d3bb-9283-46e9-99ac-9461649d15e7")
+		)
+		(pin "17"
+			(uuid "52253065-2c4c-4cdb-bbcc-09fb2e8a955e")
+		)
+		(pin "22"
+			(uuid "937224ac-5a5b-40dc-9bc0-2db6679b1f6e")
+		)
+		(pin "18"
+			(uuid "0fc7117c-01c7-461a-8789-87c977571a48")
+		)
+		(pin "24"
+			(uuid "5d16ab1e-6119-4fc6-9010-967f2ccccde5")
+		)
+		(pin "21"
+			(uuid "92e3ebaa-f4b4-452d-b095-7e8f60ea7303")
+		)
+		(pin "23"
+			(uuid "ca310cfc-6dbc-4651-8476-0feea7238651")
+		)
+		(pin "MP2"
+			(uuid "a26f54fe-d26d-4e8c-a676-6143290b562a")
+		)
+		(pin "20"
+			(uuid "6e56bf54-6ae0-499a-9f44-c233fe765a4e")
+		)
+		(pin "MP1"
+			(uuid "fa3ca28c-14b0-4b05-86c6-dbe8c597fddc")
+		)
+		(pin "19"
+			(uuid "d3b0878b-b7d4-448f-b7d9-425109f3d6af")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J4")
 					(unit 1)
 				)
 			)
