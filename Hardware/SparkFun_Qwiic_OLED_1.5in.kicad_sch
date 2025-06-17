@@ -7,8 +7,9 @@
 	(title_block
 		(title "SparkFun Qwiic OLED 128x128 1.5in")
 		(date "2025-04-26")
-		(rev "v10")
-		(comment 1 "Designed by: N. Seidle")
+		(rev "v01")
+		(comment 1 "Designed By: N. Seidle")
+		(comment 2 "Revised By: Elias Santistevan")
 	)
 	(lib_symbols
 		(symbol "SparkFun-Aesthetic:Fiducial_0.5mm"
