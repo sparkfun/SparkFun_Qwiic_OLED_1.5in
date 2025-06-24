@@ -6787,12 +6787,6 @@
 		(uuid "bda32997-f3aa-485f-bff1-973d07dd2e4d")
 	)
 	(junction
-		(at 83.82 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfb9d3cc-abb5-4145-8c40-7a12132ae13b")
-	)
-	(junction
 		(at 86.36 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6809,6 +6803,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5027f58-54dd-4788-931c-a42b4869c766")
+	)
+	(no_connect
+		(at 87.63 46.99)
+		(uuid "ac6c8e7d-c574-421a-99fe-dc272de6b084")
 	)
 	(wire
 		(pts
@@ -6872,7 +6870,7 @@
 	)
 	(polyline
 		(pts
-			(xy 34.29 55.88) (xy 34.29 71.12)
+			(xy 34.29 53.34) (xy 34.29 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7856,16 +7854,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 46.99) (xy 83.82 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5b400ea-8526-44e9-8679-c5084f8cfd22")
-	)
-	(wire
-		(pts
 			(xy 83.82 35.56) (xy 83.82 44.45)
 		)
 		(stroke
@@ -8265,17 +8253,6 @@
 		)
 		(uuid "e7bc90bc-1c54-401f-90ca-536883cc4955")
 	)
-	(polyline
-		(pts
-			(xy 34.29 55.88) (xy 34.29 53.34)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 132 132 132 1)
-		)
-		(uuid "e82889e4-689e-47ec-9944-c7ff4628f72f")
-	)
 	(wire
 		(pts
 			(xy 217.17 54.61) (xy 227.33 54.61)
@@ -8365,16 +8342,6 @@
 			(type dash)
 		)
 		(uuid "f22b58bb-570f-4cbd-be65-d2fb7fd7bf37")
-	)
-	(wire
-		(pts
-			(xy 87.63 46.99) (xy 83.82 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8942df0-0408-400a-aa11-5a8e8b19c668")
 	)
 	(polyline
 		(pts
@@ -9418,7 +9385,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-..."
+		(property "PROD_ID" "RES-26754"
 			(at 78.74 95.25 0)
 			(effects
 				(font
