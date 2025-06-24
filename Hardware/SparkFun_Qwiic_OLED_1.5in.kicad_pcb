@@ -116,6 +116,7 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
+			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -3692,6 +3693,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3703,6 +3705,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4902,6 +4905,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4913,6 +4917,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8135,6 +8140,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8146,6 +8152,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12502,7 +12509,7 @@
 	)
 	(gr_line
 		(start 133.426 105.4085)
-		(end 123.266 105.4085)
+		(end 128.346 105.4085)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -12614,8 +12621,8 @@
 		(uuid "c7b523b0-4068-4008-a65f-a00fb688aa5d")
 	)
 	(gr_line
-		(start 157.556 62.2285)
-		(end 157.556 105.4085)
+		(start 157.556 65.086)
+		(end 157.556 108.266)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -12625,7 +12632,7 @@
 	)
 	(gr_line
 		(start 147.396 105.4085)
-		(end 157.556 105.4085)
+		(end 152.476 105.4085)
 		(stroke
 			(width 0.1)
 			(type default)
