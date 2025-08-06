@@ -6640,9 +6640,9 @@
 		)
 		(uuid "a55623a7-c3a0-4b17-a89e-d37b4fa5b43a")
 	)
-	(text "Cut jumper to turn off power LED"
+	(text "Cut \"LED\" jumper to turn off power LED"
 		(exclude_from_sim no)
-		(at 104.648 179.578 0)
+		(at 104.902 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12756,17 +12756,16 @@
 		(dnp no)
 		(uuid "b8ac0351-59c1-42a6-9084-e9e990e98a2e")
 		(property "Reference" "JP1"
-			(at 123.19 154.3049 90)
+			(at 122.682 153.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 122.428 155.194 90)
+		(property "Value" "LED"
+			(at 122.682 155.956 90)
 			(effects
 				(font
 					(size 1.27 1.27)
