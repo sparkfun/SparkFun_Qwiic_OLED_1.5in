@@ -6,8 +6,9 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Qwiic OLED 128x128 1.5in")
-		(date "2025-04-26")
-		(rev "v01")
+		(date "2025-08-06")
+		(rev "v10")
+		(company "SparkFun Electronics")
 		(comment 1 "Designed By: N. Seidle")
 		(comment 2 "Revised By: Elias Santistevan")
 	)
@@ -8491,13 +8492,13 @@
 				(type solid)
 			)
 		)
-		(column_widths 7.62 8.89 13.97)
-		(row_heights 2.54 2.54 2.54)
+		(column_widths 10.16 8.89 13.97)
+		(row_heights 3.81 2.54 2.54 2.54)
 		(cells
 			(table_cell "IM1"
 				(exclude_from_sim no)
 				(at 20.32 71.12 0)
-				(size 7.62 2.54)
+				(size 10.16 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -8513,8 +8514,8 @@
 			)
 			(table_cell "IM2"
 				(exclude_from_sim no)
-				(at 27.94 71.12 0)
-				(size 8.89 2.54)
+				(at 30.48 71.12 0)
+				(size 8.89 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -8530,8 +8531,8 @@
 			)
 			(table_cell "Interface"
 				(exclude_from_sim no)
-				(at 36.83 71.12 0)
-				(size 13.97 2.54)
+				(at 39.37 71.12 0)
+				(size 13.97 3.81)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -8547,8 +8548,8 @@
 			)
 			(table_cell "Open"
 				(exclude_from_sim no)
-				(at 20.32 73.66 0)
-				(size 7.62 2.54)
+				(at 20.32 74.93 0)
+				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -8564,7 +8565,7 @@
 			)
 			(table_cell "Open"
 				(exclude_from_sim no)
-				(at 27.94 73.66 0)
+				(at 30.48 74.93 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8581,7 +8582,7 @@
 			)
 			(table_cell "I2C"
 				(exclude_from_sim no)
-				(at 36.83 73.66 0)
+				(at 39.37 74.93 0)
 				(size 13.97 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8598,8 +8599,8 @@
 			)
 			(table_cell "Closed"
 				(exclude_from_sim no)
-				(at 20.32 76.2 0)
-				(size 7.62 2.54)
+				(at 20.32 77.47 0)
+				(size 10.16 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
 				(fill
@@ -8615,7 +8616,7 @@
 			)
 			(table_cell "Closed"
 				(exclude_from_sim no)
-				(at 27.94 76.2 0)
+				(at 30.48 77.47 0)
 				(size 8.89 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8632,7 +8633,7 @@
 			)
 			(table_cell "3-Wire SPI"
 				(exclude_from_sim no)
-				(at 36.83 76.2 0)
+				(at 39.37 77.47 0)
 				(size 13.97 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -8646,6 +8647,57 @@
 					(justify left top)
 				)
 				(uuid "9e9d7e65-3bef-49bc-b1b5-cb66096d00f2")
+			)
+			(table_cell "Closed"
+				(exclude_from_sim no)
+				(at 20.32 80.01 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bae12b47-f3f3-4d69-86e6-0b1d276eb444")
+			)
+			(table_cell "Open"
+				(exclude_from_sim no)
+				(at 30.48 80.01 0)
+				(size 8.89 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "06d2b394-2b76-498c-bdef-de944f391982")
+			)
+			(table_cell "4-Wire SPI"
+				(exclude_from_sim no)
+				(at 39.37 80.01 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fe71d24f-3907-4eb9-93ae-a7ac3b6e7492")
 			)
 		)
 	)

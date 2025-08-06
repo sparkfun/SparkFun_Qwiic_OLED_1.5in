@@ -9,8 +9,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun 1.5\" OLED")
-		(date "2025-04-11")
-		(rev "v01")
+		(date "2025-08-06")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed By: N. Seidle")
 		(comment 2 "Revised By: Elias Santistevan")
@@ -12810,7 +12810,7 @@
 		(layer "Edge.Cuts")
 		(uuid "fff7498f-fa63-4832-93d5-a4338e83e6ce")
 	)
-	(gr_text "v01"
+	(gr_text "v10"
 		(at 128.6635 104.1385 0)
 		(layer "F.Cu" knockout)
 		(uuid "3c322aac-72fa-464e-a60f-a1d3fef083b6")
@@ -12988,7 +12988,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.85 in"
+		(gr_text "21.59 mm"
 			(at 158.946 97.471 90)
 			(layer "Dwgs.User")
 			(uuid "0c69ef14-39ca-4cc5-905b-f4cc5ce0a89a")
@@ -13026,7 +13026,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.475 in"
+		(gr_text "37.465 mm"
 			(at 168.471 86.676 90)
 			(layer "Dwgs.User")
 			(uuid "0f6eb672-b74a-43df-bad4-dd164a490b4b")
@@ -13063,7 +13063,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-		(gr_text "1.35 in"
+		(gr_text "34.29 mm"
 			(at 140.411 56.9855 0)
 			(layer "Dwgs.User")
 			(uuid "416ee877-e6d3-4170-8766-ed01fb919432")
@@ -13101,7 +13101,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "0.21 in"
+		(gr_text "5.4 mm"
 			(at 130.5685 105.726 90)
 			(layer "Dwgs.User")
 			(uuid "4af5f269-6548-4a1f-844b-7ad5ed511fd6")
@@ -13140,7 +13140,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.15 in"
+		(gr_text "29.21 mm"
 			(at 140.411 110.926 0)
 			(layer "Dwgs.User")
 			(uuid "5211d20c-6ce2-453c-944c-04a5d6e4e6e9")
@@ -13177,7 +13177,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-		(gr_text "0.1 in"
+		(gr_text "2.54 mm"
 			(at 124.536 59.8085 0)
 			(layer "Dwgs.User")
 			(uuid "68fd0e3f-2a72-48dc-b974-fa7be3ae9970")
@@ -13215,7 +13215,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "1.7 in"
+		(gr_text "43.18 mm"
 			(at 162.4385 86.676 90)
 			(layer "Dwgs.User")
 			(uuid "8aefd1ff-77d0-4dfe-8c50-8de3c071f8cc")
@@ -13252,7 +13252,7 @@
 			(extension_height 0.58642)
 			(extension_offset 0.5)
 		)
-		(gr_text "1.9 in"
+		(gr_text "48.26 mm"
 			(at 120.211 86.676 90)
 			(layer "Dwgs.User")
 			(uuid "8daceb47-3559-48b9-bd86-26e9967b5cff")
