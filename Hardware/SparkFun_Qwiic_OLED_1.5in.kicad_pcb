@@ -13850,13 +13850,13 @@
 		)
 	)
 	(gr_text "V-Score"
-		(at 122.2881 66.5973 0)
+		(at 121.361 66.5973 0)
 		(layer "Eco1.User")
 		(uuid "0620f9b3-ae53-4e78-b9fb-f9449a5f0def")
 		(effects
 			(font
-				(size 0.254 0.254)
-				(thickness 0.15)
+				(size 0.508 0.508)
+				(thickness 0.127)
 			)
 		)
 	)
@@ -13897,13 +13897,13 @@
 		)
 	)
 	(gr_text "V-Score"
-		(at 122.2881 105.472 0)
+		(at 121.5388 105.4212 0)
 		(layer "Eco1.User")
 		(uuid "505b31e4-8512-43e9-b713-4ed8f0ad2a11")
 		(effects
 			(font
-				(size 0.254 0.254)
-				(thickness 0.15)
+				(size 0.508 0.508)
+				(thickness 0.127)
 			)
 		)
 	)
@@ -13932,13 +13932,13 @@
 		)
 	)
 	(gr_text "V-Score"
-		(at 158.5593 105.472 0)
+		(at 159.3086 105.472 0)
 		(layer "Eco1.User")
 		(uuid "5b4d228e-dc1d-4ae4-893b-4de43eae9ab1")
 		(effects
 			(font
-				(size 0.254 0.254)
-				(thickness 0.15)
+				(size 0.508 0.508)
+				(thickness 0.127)
 			)
 		)
 	)
@@ -13967,13 +13967,13 @@
 		)
 	)
 	(gr_text "V-Score"
-		(at 158.7371 66.5973 0)
+		(at 159.461 66.5973 0)
 		(layer "Eco1.User")
 		(uuid "ccab2a48-cb98-4b34-956b-62d8256b9bb6")
 		(effects
 			(font
-				(size 0.254 0.254)
-				(thickness 0.15)
+				(size 0.508 0.508)
+				(thickness 0.127)
 			)
 		)
 	)
@@ -14032,7 +14032,7 @@
 		(layer "Dwgs.User")
 		(uuid "4af5f269-6548-4a1f-844b-7ad5ed511fd6")
 		(pts
-			(xy 125.806 105.4085) (xy 125.806 110.806)
+			(xy 128.346 105.472) (xy 125.806 110.806)
 		)
 		(height 3.175)
 		(orientation 1)
@@ -14054,7 +14054,7 @@
 			(keep_text_aligned yes)
 		)
 		(gr_text "0.21 in"
-			(at 130.5685 105.726 90)
+			(at 133.1085 105.785746 90)
 			(layer "Dwgs.User")
 			(uuid "4af5f269-6548-4a1f-844b-7ad5ed511fd6")
 			(effects
