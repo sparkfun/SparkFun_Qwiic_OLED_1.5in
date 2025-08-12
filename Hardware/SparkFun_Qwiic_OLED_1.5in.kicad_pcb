@@ -344,7 +344,7 @@
 	(footprint "SparkFun-Resistor:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "0d082115-b892-4982-80cf-eb7d54f90225")
-		(at 141.681 81.596 -90)
+		(at 141.681 80.6435 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "SparkFun resistor")
 		(property "Reference" "R6"
@@ -1517,7 +1517,7 @@
 	(footprint "SparkFun-Capacitor:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "1b99fd99-b315-4c10-9e04-e5f91e0498b0")
-		(at 147.0785 82.231)
+		(at 147.0785 81.2785)
 		(tags "SparkFun capacitor")
 		(property "Reference" "C5"
 			(at 0 -1.43 0)
@@ -2333,7 +2333,7 @@
 	(footprint "SparkFun-Capacitor:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "318e905e-d3ce-4571-9405-e91c0cc89e6d")
-		(at 143.2685 81.596 90)
+		(at 143.2685 80.6435 90)
 		(tags "SparkFun capacitor")
 		(property "Reference" "C4"
 			(at 0 -1.43 90)
@@ -2563,12 +2563,12 @@
 	(footprint "SparkFun-Connector:FPC_0.5mm-24"
 		(layer "F.Cu")
 		(uuid "3b2e56be-c8a2-4995-bfd5-c32813f8ee8d")
-		(at 140.4109 85.7235)
+		(at 140.4109 84.4535)
 		(tags "SparkFun 24 pin 0.5mm dual contact back flip connector")
 		(property "Reference" "J4"
 			(at 0 -2.7 0)
 			(layer "F.Fab")
-			(uuid "271a5cc6-25fb-4a93-a04e-be9a52fe5b35")
+			(uuid "2bfb3aea-1d40-47c3-ab63-5ba5a8292d60")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2580,7 +2580,7 @@
 		(property "Value" "Conn_01x24_FPC"
 			(at 0 4.3 0)
 			(layer "F.Fab")
-			(uuid "152b02f1-f543-4529-a80e-bc36f104fa3f")
+			(uuid "6f765e3f-0f8d-4321-a88d-6f80395b2a91")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -2594,7 +2594,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "955501b8-38ee-4725-81cb-59ea57f0f9fc")
+			(uuid "343568f2-755d-412f-a112-42536425a2b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2607,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6079885-7223-42a2-ac89-473a920e112a")
+			(uuid "5a9a2bfa-3053-432a-954c-e050e8e5a553")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7520,7 @@
 		(property "Reference" "J5"
 			(at 0 -1.397 0)
 			(layer "F.Fab")
-			(uuid "e5caba84-23b0-4d86-84d8-56a95ac5efae")
+			(uuid "2febf1ca-4cdb-43dd-8a48-2b4ac8e8883b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7531,7 +7531,7 @@
 		(property "Value" "Conn_01x07"
 			(at 0 1.27 0)
 			(layer "F.Fab")
-			(uuid "60800180-6c9f-41d3-8726-d025f28d735c")
+			(uuid "7759f792-9cad-4a96-a0c6-eee01227b101")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -7544,7 +7544,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6b175596-54c9-4fd7-8ba2-f645333419e7")
+			(uuid "7f59d761-4f52-44eb-a9db-d50532e428dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7557,7 +7557,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab5480b4-78bd-4352-9403-47dcfc3538de")
+			(uuid "01311232-4e6f-4e7b-b706-46403de53f52")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9679,7 @@
 	(footprint "SparkFun-Capacitor:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "bd24f5de-65d8-497f-9160-31d78205b95f")
-		(at 144.856 81.596 90)
+		(at 144.856 80.6435 90)
 		(tags "SparkFun capacitor")
 		(property "Reference" "C3"
 			(at 0 -1.43 90)
@@ -10171,10 +10171,9 @@
 		(embedded_fonts no)
 	)
 	(footprint "SparkFun-Display:OLED_1.5in_128x128-Folded"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "bfe162f7-1a37-457c-8e17-ad48055768e9")
-		(at 140.411 87.3955)
+		(at 140.411 85.681)
 		(tags "SparkFun OLED 1.5\" 128 x 128")
 		(property "Reference" "U2"
 			(at 0 -13.6 0)
@@ -10875,7 +10874,7 @@
 		(property "Reference" "ST2"
 			(at 0 -2.032 0)
 			(layer "F.Fab")
-			(uuid "69bd05a4-fbc0-4fc5-9f56-048450593a21")
+			(uuid "b74c2d84-81a5-41e5-ba20-6c7e2a3de97b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -10887,7 +10886,7 @@
 		(property "Value" "Standoff"
 			(at 0 2.032 0)
 			(layer "F.Fab")
-			(uuid "eb5f42e8-4c1b-4e65-b317-7c6b7f4207c5")
+			(uuid "b93c9249-8492-4ab6-b5dc-6901ef8b7dd3")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -10901,7 +10900,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2375fe0c-ac1d-4fc6-92f1-e50737950529")
+			(uuid "33ff83db-341f-4c76-8949-ae25ecf17913")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10914,7 +10913,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4b7ae419-1e53-471f-93ec-d0363c540420")
+			(uuid "0d676a27-e1ef-4231-94d3-fa6c897589d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11449,7 +11448,7 @@
 		(property "Reference" "ST1"
 			(at 0 -2.032 0)
 			(layer "F.Fab")
-			(uuid "5b60c6f4-4b87-45dd-804c-47ce1c490495")
+			(uuid "303af812-2611-4dda-8f9c-9f0e116d0d98")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11461,7 +11460,7 @@
 		(property "Value" "Standoff"
 			(at 0 2.032 0)
 			(layer "F.Fab")
-			(uuid "8ecd829c-a2ee-4b03-b0d0-315b81b67df6")
+			(uuid "94998584-2a54-42f0-bab0-9750b0348d6b")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11475,7 +11474,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c441112f-98a1-4d96-9ab9-892f93ebc357")
+			(uuid "9961cdc9-0c38-41ab-b1c0-9f0eb1dfecb3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11488,7 +11487,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9b69737-a604-4fd4-8a23-9c88741475e7")
+			(uuid "93023b5b-e0c0-46da-a0c4-ee3add1c8422")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15202,15 +15201,6 @@
 		(free yes)
 		(net 2)
 		(uuid "97bb35c7-4fd4-4b8f-9db6-366b430cac05")
-	)
-	(via
-		(at 148.031 81.2785)
-		(size 0.56)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 2)
-		(uuid "98842432-0d02-47de-8dae-ba80730f741e")
 	)
 	(via
 		(at 141.9985 94.6135)
