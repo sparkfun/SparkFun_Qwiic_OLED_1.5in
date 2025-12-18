@@ -1,4 +1,4 @@
-
+Let's take a closer look at the OLED and other hardware included on this breakout board.
 
 ## WEO128128HWAP3N00000 OLED
 
@@ -27,4 +27,8 @@ This Qwiic OLED Display has five solder jumpers labeled <b>IM1</b>, <b>IM2</b>, 
 
 ## Board Dimensions
 
-The main dimensions of the Qwiic OLED Display measure 1.35" x 1.475" () and it has four mounting standoffs outside the main dimensions that fit a [4-40 screw]().
+The main dimensions of the Qwiic OLED Display measure 1.350" x 1.475" (34.290mm x 37.465) and it has four mounting standoffs outside the main dimensions that fit a 4-40 screw.
+
+<figure markdown>
+[![Board Dimensions](./assets/board_files/SparkFun_Qwiic_OLED_1.5in.jpg){ width="600"}](./assets/board_files/SparkFun_Qwiic_OLED_1.5in.jpg "Click to enlarge")
+</figure>

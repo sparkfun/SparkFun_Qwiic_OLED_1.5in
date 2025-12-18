@@ -1,5 +1,5 @@
 # Documentation page information
-site_name: SparkFun Qwiic OLED Display (1.5in, 128x128)
+site_name: SparkFun Qwiic OLED Display (1.5in, 128x128) Hookup Guide
 site_description: A guide for getting started with the SparkFun Qwiic OLED Display (1.5in, 128x128)
 site_url: https://sparkfun.github.io/SparkFun_Qwiic_OLED_1.5in
 site_author: SparkFun Electronics
@@ -273,15 +273,15 @@ extra_javascript:
 nav:
   - Hookup Guide:
     - Introduction: introduction.md
-    - Quick Start: quickstart.md
+    - Quick Start: quick_start.md
     - Hardware: 
       - Hardware Overview: hardware_overview.md
       - Hardware Assembly: hardware_assembly.md
     - Software:
       - OLED Arduino Library: arduino_setup.md
       - Arduino Examples: arduino_examples.md
-    - Resources: resources.md
-    - Support:
-      - Troubleshooting: troubleshooting.md
-      - Submit Issues: github/file_issue.md
-      - Contribute: github/contribute.md
+  - Resources: resources.md
+  - Support:
+    - Troubleshooting: troubleshooting.md
+    - Submit Issues: github/file_issue.md
+    - Contribute: github/contribute.md

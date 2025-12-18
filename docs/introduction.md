@@ -1,17 +1,15 @@
 <figure markdown>
-[![Banner Image](){ width="600"}]( "Click to enlarge")
+[![Banner Image](./assets/img/Hookup_Guide-Banner.jpg){ width="800"}](https://www.sparkfun.com/sparkfun-qwiic-oled-display-1-5-in-128x128.html)
 </figure>
 
-The SparkFun Qwiic OLED Display (1.5in., 128x128) is a compact, square monochrome white on black 128x128 pixel display. This COG (chip on glass) OLED display does not have a back light layer (unlike LCDs) so it’s thinner, consumes less power, and has higher contrast.
+The SparkFun Qwiic OLED Display (1.5in., 128x128) is a compact, square monochrome white on black 128x128 pixel display. This COG (chip on glass) OLED display does not have a back light layer (unlike LCDs) so it’s thinner, consumes less power, and has higher contrast. 
 
 
-You'll need the following items to follow along with this tutorial:
+You'll need the Qwiic OLED Display (1.5in., 128x128) along with the following products to follow along with this tutorial:
 
-* [SparkFun Qwiic OLED Display (1.5in., 128x128)(https://www.sparkfun.com/products/29530)
-* [SparkFun RedBoard Plus](https://www.sparkfun.com/sparkfun-redboard-plus.html) or other Arduino development board
+* [SparkFun RedBoard IoT - ESP32](https://www.sparkfun.com/sparkfun-redboard-plus.html) or other Arduino development board
 * [Qwiic Cable]()
 * [USB-C Cable](https://www.sparkfun.com/reversible-usb-a-to-c-cable-0-8m.html)
-
 
 
 ## Topics Covered
